@@ -9,23 +9,23 @@ function createXmlhttp() {
   return xmlhttp
 }
 
-// var xmlhttp = createXmlhttp();
-// xmlhttp.onreadystatechange = function() {
-//   if (this.readyState == 4 && this.status == 200) {
-//     setLineData(this.responseText);
-//   }
-// }
-// xmlhttp.open("GET", "https://edu.telking.com/api/?type=month", true);
-// xmlhttp.send();
+var xmlhttp = createXmlhttp();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    setLineData(this.responseText);
+  }
+}
+xmlhttp.open("GET", "https://edu.telking.com/api/?type=month", true);
+xmlhttp.send();
 
-// xmlhttp = createXmlhttp();
-// xmlhttp.onreadystatechange = function() {
-//   if (this.readyState == 4 && this.status == 200) {
-//     setPieData(this.responseText);
-//   }
-// }
-// xmlhttp.open("GET", "https://edu.telking.com/api/?type=week", true);
-// xmlhttp.send();
+xmlhttp = createXmlhttp();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    setPieData(this.responseText);
+  }
+}
+xmlhttp.open("GET", "https://edu.telking.com/api/?type=week", true);
+xmlhttp.send();
 
 // 设置折线图数据
 function setLineData(jsonData) {
@@ -122,12 +122,10 @@ function setPieData(jsonData) {
   var series = json.data.series;
   for (var i = 0; i < xAxis.length; i++) {
     if (series.length > i) {
-      var label = {};
-      label["color"] = colorArray[i]
       var object = {};
       object["name"] = xAxis[i];
       object["value"] = series[i];
-      object["label"] = label
+      object["label"] = {"color": colorArray[i]};
       data.push(object);
     }
   }
