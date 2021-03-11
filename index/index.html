@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="../js/utils.js"></script>
+  <script src="../js/echarts.min.js"></script>
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/index_head.css">
+  <link rel="stylesheet" href="../css/index_foot.css">
+  <link rel="stylesheet" href="../css/index_banner.css">
+  <link rel="stylesheet" href="../css/index_echarts.css">
+</head>
+<body>
+
+  <div class="constraint_head">
+    <p class="logo logo_head">L O G O</p>
+    <div class="constraint_user">
+      <img class="image_config" src="../img/icon_config.png">
+      <img class="image_remind" src="../img/icon_remind.png">
+      <input class="button_logout" type="button" value="Log Out"></input>
+    </div>
+  </div>
+
+  <div class="constraint_content">
+
+    <div class="constraint_title">
+      <div>
+        <p class="title_name">Audience Overview</p>
+        <p class="title_mark">Roseville, CA</p>
+      </div>
+
+      <div class="navigation">
+        <ul id="ul_navigation">
+          <li id="navigation_tab1">DASHBOARD</li>
+          <li id="navigation_tab2">PROJECTS</li>
+          <li id="navigation_tab3">CALENDAR</li>
+          <li id="navigation_tab4">MAILBOX</li>
+          <li id="navigation_tab5">SETTINGS</li>
+        </ul>
+        <div id="navigation_indicator"></div>
+      </div>
+    </div>
+
+    <div class="constraint_message">
+      <div id="constraint_banner">
+        <div class="constraint_banner_inner">
+          <ul id="banner_image"></ul>
+          <ul id='banner_indicator'></ul>
+          <p id="banner_last">&lt;</p>
+          <p id="banner_next">&gt;</p>
+        </div>
+      </div>
+
+      <div class="constraint_data">
+        <div class="constraint_viewAll">
+          <p class="text_viewAll">Support Requests</p>
+          <input class="button_viewAll" type="button" value="View All"></input>
+        </div>
+        <div class="line"></div>
+        <div class="constraint_dataList">
+          <ul id="ul_time">
+            <li>TIME</li>
+          </ul>
+          <ul id="ul_name">
+            <li>USER NAME</li>
+          </ul>
+          <ul id="ul_state">
+            <li>STATUS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="echarts1"></div>
+
+    <div class="constraint_echarts">
+      <div id="echarts2"></div>
+      <div id="echarts3"></div>
+    </div>
+
+  </div>
+
+  <div id="constraint_foot">
+    <div id="constraint_foot_inner">
+      <p class="logo logo_foot">L O G O</p>
+    </div>
+  </div>
+
+  <div class="constraint_bottom"></div>
+  
+  <script type="text/javascript" src="../js/index.js"></script>
+  <script type="text/javascript" src="../js/index_banner.js"></script>
+  <script type="text/javascript" src="../js/index_echarts.js"></script>
+
+</body>
+</html>

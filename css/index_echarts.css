@@ -1,0 +1,29 @@
+
+#echarts1 {
+    width: 1140px;
+    height: 349px;
+    padding-top: 33px;
+    background-color: white;
+    margin: 20px auto 0;
+}
+
+.constraint_echarts {
+  display: flex;
+  margin: 20px auto 53px;
+  width: 1140px;
+}
+
+#echarts2 {
+    width: 560px;
+    height: 377px;
+    padding-top: 47px;
+    background-color: white;
+}
+
+#echarts3 {
+    width: 560px;
+    height: 377px;
+    margin-left: 20px;
+    padding-top: 47px;
+    background-color: white;
+}

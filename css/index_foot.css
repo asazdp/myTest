@@ -1,0 +1,49 @@
+
+#constraint_foot {
+  display: flex;
+  background-color: #202124;
+}
+
+#constraint_foot_inner {
+  width: 1140px;
+  margin: 79px auto;
+}
+
+.logo_foot {
+  margin-top: 1px;
+}
+
+#constraint_foot_inner ul {
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 120px;
+  list-style-type: none;
+}
+
+#constraint_foot_inner ul:first-of-type {
+  margin-left: 77px;
+}
+
+#constraint_foot_inner li {
+  margin-top: 10px;
+}
+
+#constraint_foot_inner li:first-of-type {
+  margin-top: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li>a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: "Raleway-Bold";
+}
+
+.constraint_bottom {
+  height: 37px;
+	background-color: #1c1d20;
+}

@@ -1,0 +1,180 @@
+
+body {
+  min-width: 1440px;
+}
+
+.logo {
+  display: inline-block;
+  width: 105px;
+  height: 30px;
+  margin: 0;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  background-color: #f92525;
+}
+
+.constraint_content {
+  overflow: hidden;
+  background-color: #f5f8f9;
+}
+
+.constraint_title {
+  display: flex;
+  width: 1140px;
+  margin: 60px auto 0;
+  justify-content: space-between;
+}
+
+.title_name {
+  font-size: 30px;
+  color: #262b2e;
+  margin: 0;
+}
+
+.title_mark {
+  font-size: 15px;
+  color: #262b2e;
+  opacity: 0.7;
+  margin: 3px 0 0 0;
+}
+
+.navigation {
+  position: relative;
+  margin-top: 29px;
+}
+
+.navigation ul {
+  display: flex;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navigation li {
+  position: relative;
+  width: 100px;
+  font-size: 13px;
+  font-family: "OpenSans-Bold";
+  font-weight: bold;
+  text-align: center;
+  color: #262b2e;
+  line-height: 1;
+  transition: 0.2s all linear;
+  cursor: pointer;
+}
+
+#navigation_indicator {
+  position: absolute;
+  width: 80px;
+	height: 2px;
+  left: 10px;
+  bottom: 0;
+	background-color: #262b2e;
+	opacity: 0.2;
+}
+
+.constraint_message {
+  display: flex;
+  margin: 40px auto 0;
+  width: 1140px;
+}
+
+.constraint_data {
+  display: inline-block;
+  width: 560px;
+  height: 288px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+.constraint_viewAll {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_viewAll {
+  margin-left: 50px;
+  margin-top: 50px;
+  font-family: OpenSans;
+	font-size: 18px;
+  color: #262b2e;
+}
+
+.button_viewAll {
+  width: 95px;
+	height: 40px;
+  margin: 40px 50px 29px 0;
+  color: rgba(38, 43, 46, 0.7);
+  border: solid 2px rgba(38, 43, 46, 0.1);
+  background-color: white;
+}
+
+.button_viewAll:hover {
+  background-color: #dddddd;
+}
+
+.button_viewAll:active {
+  background-color: #bbbbbb;
+}
+
+.button_viewAll:focus {
+  outline: none;
+}
+
+.line {
+  height: 1px;
+	background-color: #202124;
+	opacity: 0.07;
+}
+
+.constraint_dataList {
+  display: flex;
+  padding: 27px 51px 0 49px;
+}
+
+#ul_name {
+  flex-grow: 1;
+  margin-left: 58px;
+}
+
+#ul_state {
+  margin-left: 58px;
+}
+
+#ul_time li:first-child, #ul_name li:first-child, #ul_state li:first-child {
+  font-weight: bold;
+}
+
+.li_time, .li_name {
+  height: 30px;
+  margin-top: 20px;
+  line-height: 30px;
+  font-size: 13px;
+  color: #262b2e;
+}
+
+.button_solved {
+  width: 65px;
+	height: 30px;
+  margin-top: 20px;
+  font-size: 13px;
+  color: white;
+  border: none;
+	background-color: #5dd054;
+	border-radius: 2px;
+}
+
+.button_solved:hover {
+  background-color: #6acc81;
+}
+
+.button_solved:active {
+  background-color: #0bc135;
+}
+
+.button_solved:focus {
+  outline: none;
+}

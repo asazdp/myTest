@@ -1,0 +1,52 @@
+
+.constraint_head {
+  display: flex;
+  width: 1140px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.logo_head {
+  margin: 30px 0 40px 0;
+}
+
+.constraint_user {
+  display: flex;
+  align-items: center;
+}
+
+.image_config {
+  width: 18px;
+  height: 18px;
+}
+
+.image_remind {
+  width: 18px;
+  height: 18px;
+  margin-left: 19px;
+}
+
+.button_logout {
+  display: inline-block;
+  width: 105px;
+  height: 40px;
+  margin: 0 0 0 40px;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  background-color: #f92525;
+}
+
+.button_logout:hover {
+  background-color: #e85151;
+}
+
+.button_logout:active {
+  background-color: #c00505;
+}
+
+.button_logout:focus {
+  outline: none;
+}

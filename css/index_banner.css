@@ -1,0 +1,85 @@
+
+#constraint_banner {
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  width: 540px;
+  height: 268px;
+  background-color: white;
+}
+
+.constraint_banner_inner {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 540px;
+  height: 268px;
+  overflow: hidden;
+}
+
+#banner_image {
+  position: relative;
+  left: 0;
+  top: 0;
+  list-style: none;
+}
+
+#banner_image li {
+  display: inline-block;
+  width: 540px;
+  height: 268px;
+}
+
+#banner_image li img {
+  width: 540px;
+  height: 268px;
+}
+
+#banner_indicator {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 10px;
+  list-style: none;
+  text-align: center;
+}
+
+.indicator {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  margin-left: 5px;
+  vertical-align: bottom;
+  cursor: pointer;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.indicator_selected {
+  height: 15px;
+}
+
+.constraint_banner_inner p {
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  top: 50%;
+  margin-top: -15px;
+  line-height: 30px;
+  text-align: center;
+  font-family: "Simsun";
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  background: black;
+}
+
+#banner_last {
+  left: 5px;
+}
+
+#banner_next {
+  left: 100%;
+  margin-left: -25px;
+}
